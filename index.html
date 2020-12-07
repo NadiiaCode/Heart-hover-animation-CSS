@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart</title>
+    <script
+      src="https://kit.fontawesome.com/25bc89a4e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="circle">
+      <i class="fas fa-heart"></i>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #c6dfe4;
+      }
+
+      .circle {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: #ffe9d0;
+        border: 2px solid#e0d6ef;
+        box-shadow: -10px -10px 17px 2px #f3d5c3, inset 10px 10px 8px 2px#f5dccd,
+          10px 10px 16px 2px #e0d6ef;
+      }
+
+      .fa-heart {
+        margin: 25%;
+        font-size: 100px;
+        color: white;
+      }
+
+      .circle:hover {
+        box-shadow: inset -5px -10px 8px 1px #e0b3c3,
+          inset 5px 5px 6px 1px #ffdba8, inset 5px 5px 9px 1px #ffe07a;
+      }
+
+      .fa-heart:hover{
+          color: red;
+      }
+    </style>
+  </body>
+</html>
